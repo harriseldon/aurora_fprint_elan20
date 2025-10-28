@@ -13,13 +13,15 @@ set -ouex pipefail
 dnf5 install -y tmux 
 
 # Install libfprint with Elan SoC support from COPR
-echo "Enabling copr ntibbitts/libfprint-Elanmoc2"
-dnf5 -y copr enable ntibbitts/libfprint-Elanmoc2
+echo "Enabling copr gaanee/libfprint-elanmoc2"
+#dnf5 -y copr enable  ntibbitts/Libfprint-Elanmoc2 
+dnf -y copr enable gaanee/libfprint-elanmoc2
 echo "install libfprint"
-dnf5 -y install libfprint
+dnf5 -y install libfprint-elanmoc2
 # Disable COPRs so they don't end up enabled on the final image:
 echo "disabling the image so it does not appear in final"
-dnf5 -y copr disable ntibbitts/libfprint-Elanmoc2
+#dnf5 -y copr disable gaanee/libfprint-elanmoc2
+dnf -y copr disable gaanee/libfprint-elanmoc2
 
 #### Example for enabling a System Unit File
 
