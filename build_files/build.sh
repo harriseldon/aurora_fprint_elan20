@@ -17,7 +17,7 @@ echo "Enabling copr gaanee/libfprint-elanmoc2"
 #dnf5 -y copr enable  ntibbitts/Libfprint-Elanmoc2 
 dnf -y copr enable gaanee/libfprint-elanmoc2 fedora-42-x86_64
 echo "install libfprint"
-dnf5 -y install --allowerasing libfprint-elanmoc2
+dnf5 -y swap libprint libfprint-elanmoc2
 # Disable COPRs so they don't end up enabled on the final image:
 echo "disabling the image so it does not appear in final"
 #dnf5 -y copr disable gaanee/libfprint-elanmoc2
