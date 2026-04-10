@@ -19,9 +19,9 @@ modules:
   - type: dnf
     repos:
       copr:
-        - doncesar12345/libfprint-elanmoc2 
+        - gaanee/libfprint-elanmoc2 
     replace:
-      - from-repo: copr:copr.fedorainfracloud.org:doncesar12345:libfprint-elanmoc2
+      - from-repo: copr:copr.fedorainfracloud.org:gaanee:libfprint-elanmoc2
         packages:
           - old: libfprint
             new: libfprint-elanmoc2
