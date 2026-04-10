@@ -19,8 +19,7 @@ modules:
   - type: dnf
     repos:
       copr:
-        - name: doncesar12345/libfprint-elanmoc2 
-          enabled: true
+        - doncesar12345/libfprint-elanmoc2 
     replace:
       - from-repo: copr:copr.fedorainfracloud.org:doncesar12345:libfprint-elanmoc2
         packages:
