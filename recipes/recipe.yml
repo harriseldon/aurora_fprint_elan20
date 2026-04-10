@@ -11,10 +11,10 @@ image-version: latest
 
 # udpates to immutable base
 modules:
-  - type: files
-    files:
-      - source: system
-        destination: /
+  # - type: files
+  #   files:
+  #     - source: system
+  #       destination: /
 
   - type: dnf
     repos:
