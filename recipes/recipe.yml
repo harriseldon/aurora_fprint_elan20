@@ -22,7 +22,7 @@ modules:
     #     - name: doncesar12345/libfprint-elanmoc2 
     #       enabled: true
     replace:
-      - from-repo: doncesar12345/libfprint-elanmoc2 
+      - from-repo: copr:copr.fedorainfracloud.org:doncesar12345:libfprint-elanmoc2
         packages:
           - old: libfprint
             new: libfprint-elanmoc2
