@@ -6,8 +6,8 @@ name: template
 description: This is my personal OS image.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/aurora-dx:latest
-image-version: 43
+base-image: ghcr.io/ublue-os/aurora-dx
+image-version: latest
 
 # udpates to immutable base
 modules:
