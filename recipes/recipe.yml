@@ -17,12 +17,12 @@ modules:
   #       destination: /
 
   - type: dnf
-    repos:
-      copr:
-        - name: johnc456/libfprint-elanmoc2 
-          enabled: true
+    # repos:
+    #   copr:
+    #     - name: doncesar12345/libfprint-elanmoc2 
+    #       enabled: true
     replace:
-      - from-repo: ohnc456/libfprint-elanmoc2 
+      - from-repo: doncesar12345/libfprint-elanmoc2 
         packages:
           - old: libfprint
             new: libfprint-elanmoc2
