@@ -25,4 +25,12 @@ modules:
         packages:
           - old: libfprint
             new: libfprint-elanmoc2
+    # to install dependencies for flutter development
+    install:
+      - gtk3-devel
+      - gstreamer1-devel
+      - clutter-devel
+      - webkit2gtk3-devel
+      - libgda-devel
+      - gobject-instrospection-devel
   - type: signing
