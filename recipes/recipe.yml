@@ -35,5 +35,5 @@ modules:
         - webkit2gtk4.1-devel
         - libgda-devel
         - gobject-introspection-devel
-        - deltacopy/plasma6-applets-kara
+        - plasma6-applets-kara
   - type: signing
