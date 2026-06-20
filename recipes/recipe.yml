@@ -19,7 +19,8 @@ modules:
   - type: dnf
     repos:
       copr:
-        - gaanee/libfprint-elanmoc2 
+        - gaanee/libfprint-elanmoc2
+        - deltacopy/plasma6-applets-kara 
     replace:
       - from-repo: copr:copr.fedorainfracloud.org:gaanee:libfprint-elanmoc2
         packages:
@@ -34,4 +35,5 @@ modules:
         - webkit2gtk4.1-devel
         - libgda-devel
         - gobject-introspection-devel
+        - plasma6-applets-kara
   - type: signing
