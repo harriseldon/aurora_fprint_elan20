@@ -38,4 +38,5 @@ modules:
         - gobject-introspection-devel
         - plasma6-applets-kara
         - voxtype
+        - wtype
   - type: signing
