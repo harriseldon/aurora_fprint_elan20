@@ -21,6 +21,7 @@ modules:
       copr:
         - gaanee/libfprint-elanmoc2
         - deltacopy/plasma6-applets-kara 
+        - scottames/voxtype
     replace:
       - from-repo: copr:copr.fedorainfracloud.org:gaanee:libfprint-elanmoc2
         packages:
@@ -36,4 +37,5 @@ modules:
         - libgda-devel
         - gobject-introspection-devel
         - plasma6-applets-kara
+        - voxtype
   - type: signing
