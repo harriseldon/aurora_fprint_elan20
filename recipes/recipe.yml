@@ -36,4 +36,5 @@ modules:
         - libgda-devel
         - gobject-introspection-devel
         - plasma6-applets-kara
+        - wf-recorder
   - type: signing
